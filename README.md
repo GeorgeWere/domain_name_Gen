@@ -62,5 +62,5 @@ python domain_name_Gen.py -n "John Doe" -d example.com -o output.txt
 
 This will generate email addresses for the name "John Doe" with the domain "example.com" and save them to the output.txt file.
 
-Contributing
+# Contributing
 If you find any bugs or issues with the script, please open an issue on the GitHub repository.
