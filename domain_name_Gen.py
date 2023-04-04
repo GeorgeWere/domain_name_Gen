@@ -38,7 +38,7 @@ def generate_emails(name, domain):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generate email addresses from name and domain')
-    parser.add_argument('-n', '--name', help='Name (e.g. John Doe)', required=True)
+    parser.add_argument('-n', '--name', help='Name (e.g. John Doe)', nargs='?')
     parser.add_argument('-d', '--domain', help='Domain (e.g. example.com)')
     parser.add_argument('-f', '--file', help='File containing names, one per line')
     parser.add_argument('-o', '--output', help='Output file for generated email addresses')
